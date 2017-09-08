@@ -1,0 +1,21 @@
+
+# JJ: I edited the following lines to specify the cintcode and cintpos
+# home directories, and cyber-dojo.sh executes the bash shell command
+# . /distribution/BCPL/cintcode/os/linux/setbcplenv
+
+export BCPLROOT=/distribution/BCPL/cintcode
+export BCPLPATH=$BCPLROOT/cin
+export BCPLHDRS=$BCPLROOT/g
+export BCPLSCRIPTS=$BCPLROOT/s
+
+export BCPL64ROOT=/distribution/BCPL/cintcode
+export BCPL64PATH=$BCPL64ROOT/cin64
+export BCPL64HDRS=$BCPL64ROOT/g
+export BCPL64SCRIPTS=$BCPL64ROOT/s
+
+export POSROOT=/distribution/Cintpos/cintpos
+export POSPATH=$POSROOT/cin
+export POSHDRS=$POSROOT/g
+export POSSCRIPTS=$POSROOT/s
+
+export PATH=$PATH:$BCPLROOT/bin:$POSROOT/bin
