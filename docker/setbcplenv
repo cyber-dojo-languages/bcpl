@@ -1,4 +1,3 @@
-
 # JJ: I edited the following lines to specify the cintcode and cintpos
 # home directories, and cyber-dojo.sh executes the bash shell command
 # . /distribution/BCPL/cintcode/os/linux/setbcplenv
