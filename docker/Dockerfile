@@ -18,6 +18,3 @@ RUN export BCPLROOT=/distribution/BCPL/cintcode \
  && export PATH=$PATH:$BCPLROOT/bin
 
 COPY setbcplenv /distribution/BCPL/cintcode/os/linux
-
-COPY version.txt /tmp
-RUN /distribution/BCPL/cintcode/bin/cintsys64 -v | grep -f /tmp/version.txt
