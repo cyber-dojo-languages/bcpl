@@ -1,3 +1,5 @@
-# bcpl 2013
+# bcpl
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/bcpl-2013.svg?branch=master)
+![Build Status](https://travis-ci.org/cyber-dojo-languages/bcpl.svg?branch=master)
+
+[version](./docker/version.txt)
