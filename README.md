@@ -1,4 +1,4 @@
-# bcpl
+# BCPL
 
 ![Build Status](https://travis-ci.org/cyber-dojo-languages/bcpl.svg?branch=master)
 
