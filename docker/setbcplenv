@@ -1,6 +1,8 @@
 # JJ: I edited the following lines to specify the cintcode and cintpos
 # home directories, and cyber-dojo.sh executes the bash shell command
 # . /distribution/BCPL/cintcode/os/linux/setbcplenv
+# noting that the Dockerfile does a
+# COPY setbcplenv /distribution/BCPL/cintcode/os/linux
 
 export BCPLROOT=/distribution/BCPL/cintcode
 export BCPLPATH=$BCPLROOT/cin
