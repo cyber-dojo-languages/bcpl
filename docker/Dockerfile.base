@@ -1,10 +1,8 @@
-FROM  cyberdojofoundation/ubuntu-build-essential:18.04
+FROM cyberdojofoundation/ubuntu-build-essential:18.04
 LABEL maintainer=jon@jaggersoft.com
 
-ADD install.sh /
-
-RUN /install.sh && \
-    rm -f /install.sh
+COPY install.sh .
+RUN ./install.sh && rm -f ./install.sh
 
 RUN export BCPLROOT=/distribution/BCPL/cintcode \
  && export PATH=$PATH:$BCPLROOT/bin

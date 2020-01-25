@@ -1,6 +1,7 @@
-# BCPL
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/bcpl.svg?branch=master)
+[![CircleCI](https://circleci.com/gh/cyber-dojo-languages/bcpl.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/bcpl)
+
+## image_name="cyberdojofoundation/bcpl"
 
 [Version=2018](https://github.com/cyber-dojo-languages/bcpl/blob/master/check_version.sh)
 

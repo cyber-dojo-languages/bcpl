@@ -1,5 +1,4 @@
-#!/bin/sh
-set -e
+#!/bin/sh -Eeu
 
 apt-get update
 apt-get install --yes wget
