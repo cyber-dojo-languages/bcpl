@@ -1,6 +1,6 @@
 #!/bin/sh -Eeu
 
-apt-get update
+apt-get install --yes libglu1-mesa libglu1-mesa-dev
 apt-get install --yes wget
 
 mkdir /distribution
