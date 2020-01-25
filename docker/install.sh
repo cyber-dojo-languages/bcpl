@@ -1,7 +1,11 @@
 #!/bin/sh -Eeu
 
+# install add-apt-repository
+apt-get install --yes software-properties-common
+# use it to get new package source
 add-apt-repository universe
 apt update
+# now install open-gl
 apt-get install --yes mesa-utils freeglut3-dev
 
 apt-get install --yes wget
