@@ -1,7 +1,9 @@
 #!/bin/sh -Eeu
 
-apt-get apt-cache search glut
+add-apt-repository universe
+apt update
 apt-get install --yes mesa-utils freeglut3-dev
+
 apt-get install --yes wget
 
 mkdir /distribution
