@@ -1,6 +1,7 @@
 #!/bin/sh -Eeu
 
-apt-get install --yes libglu1-mesa libglu1-mesa-dev freeglut3
+apt-get apt-cache search glut
+apt-get install --yes mesa-utils freeglut3-dev
 apt-get install --yes wget
 
 mkdir /distribution
