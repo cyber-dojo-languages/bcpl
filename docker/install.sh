@@ -1,6 +1,6 @@
 #!/bin/sh -Eeu
 
-apt-get install --yes libglu1-mesa libglu1-mesa-dev freeglut3 freeglutg3-dev
+apt-get install --yes libglu1-mesa libglu1-mesa-dev freeglut3
 apt-get install --yes wget
 
 mkdir /distribution
