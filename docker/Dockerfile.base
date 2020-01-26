@@ -3,8 +3,3 @@ LABEL maintainer=jon@jaggersoft.com
 
 COPY install.sh .
 RUN ./install.sh && rm -f ./install.sh
-
-RUN export BCPLROOT=/distribution/BCPL/cintcode \
- && export PATH=$PATH:$BCPLROOT/bin
-
-COPY setbcplenv /distribution/BCPL/cintcode/os/linux
