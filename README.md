@@ -1,4 +1,3 @@
-
 [![CircleCI](https://circleci.com/gh/cyber-dojo-languages/bcpl.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/bcpl)
 
 ## image_name="cyberdojofoundation/bcpl"
