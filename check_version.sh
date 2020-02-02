@@ -1,7 +1,7 @@
 #!/bin/bash -Eeu
 
 readonly MY_DIR="$( cd "$( dirname "${0}" )" && pwd )"
-readonly EXPECTED=$(cat ${MY_DIR}/README.md | grep Version | cut -d'=' -f2 | cut -d']' -f1)
+readonly EXPECTED=2020
 readonly ACTUAL=$(docker run --rm -it cyberdojofoundation/bcpl sh -c '/distribution/BCPL/cintcode/bin/cintsys -v')
 
 if echo "${ACTUAL}" | grep -q "${EXPECTED}"; then
